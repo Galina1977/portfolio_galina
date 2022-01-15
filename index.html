@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="pobots" content="none">
+   <meta name="Author" content="Галина Пенер">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Мое портфолио</title>
+   <link rel="shortcut icon" href="/images/favicon.ico" type="image/favicon.ico">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <header id="header" class="header">
+         <div class="header__wrapper">
+            <div class="header__container _container">
+               <div class="header__body">
+                  <div class="header__main">
+                     <p class="header__logo">Galina Pener
+                        <span>Markup developer</span>
+                     </p>
+                     <button class="header__burger" type="button">
+                        <span></span>
+                     </button>
+                     <div class="header__menu menu">
+                        <nav class="menu__body">
+                           <ul class="menu__list">
+                              <li class="menu__item">
+                                 <a class="menu__link" href="#header">Главная</a>
+                              </li>
+                              <li class="menu__item">
+                                 <a class="menu__link" href="#greetings">Обо мне</a>
+                              </li>
+                              <li class="menu__item">
+                                 <a class="menu__link" href="#expertise">Навыки</a>
+                              </li>
+                              <li class="menu__item">
+                                 <a class="menu__link" href="#certificates">Сертификаты</a>
+                              </li>
+                              <li class="menu__item">
+                                 <a class="menu__link" href="#portfolio">Портфолио</a>
+                              </li>
+                              <li class="menu__item">
+                                 <a class="menu__link" href="#footer">Контакты</a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="page">
+         <section class="page__full-screen full-screen">
+            <div class="full-screen__body">
+               <div class="full-screen__content">
+                  <h1 class="full-screen__title">Здравствуйте, я
+                     <span class="full-screen__name">Галина Пенер</span>
+                  </h1>
+                  <p class="full-screen__text">Верстальщик (markup developer)</p>
+                  <a class="full-screen__button _atuin-btn" href="#portfolio">Портфолио</a>
+               </div>
+            </div>
+            <video class="full-screen__video" autoplay muted loop preload="auto">
+               <source src="video/bg_video.webm" type="video/webm">
+               <source src="video/bg_video.mp4" type="video/mp4">
+            </video>
+         </section>
+
+         <section id="greetings" class="page__greetings greetings">
+            <div class="greetings__container _container">
+               <h2 class="greetings__title _title">Обо мне</h2>
+               <div class="greetings__inner">
+                  <div class="greetings__content">
+                     <p class="greetings__text">
+                        Приветствую Вас на своем сайте-портфолио. Живу я в Перми. Версткой занимаюсь 1 год.
+                     </p>
+                     <p class="greetings__text">
+                        В процессе работы над проектом я использую сборщик проектов Gulp для автоматизации процесса верстки, препроцессоры Sass/Scss.
+                     </p>
+                     <p class="greetings__text">
+                        Подключаю плагины библиотеки jQuery, чтобы интерактивные элементы работали корректно (слайдеры, всплывающие окна, аудио и видеоплееры, табы, выпадающие списки и прочее).
+                     </p>
+                     <p class="greetings__text">
+                        В конце работы делаю проверку отображения верстки в различных браузерах на разных устройствах.
+                     </p>
+                     <p class="greetings__text">
+                        Код проверяю валидатором на соответствие стандартам и устраняю выявленные ошибки.
+                     </p>
+                     <p class="greetings__text">Верстку делаю гибкой, проверяю на прочность и выносливость.</p>
+                     <p class="greetings__text">
+                        Адаптив Mobile First - создание мобильной версии веб-сайта и
+                        Desktop First - адаптивный и отзывчивый веб-сайт.
+                     </p>
+                     <p class="greetings__text">
+                        Более подробную информацию лично обо мне, вы можете посмотреть в моих соц.сетях.
+                     </p>
+                     <div class="greetings__social social">
+                        <a class="social__link" href="https://vk.com/id20695587" target="_blank">
+                           <img class="social__img" src="images/icons/vk.png" alt="Vk">
+                        </a>
+                        <a class="social__link" href="https://www.instagram.com/galinapener/" target="_blank">
+                           <img class="social__img" src="images/icons/Instagram.png" alt="Instagram">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="greetings__images _ibg animate__animated wow animate__zoomIn" data-wow-offset="150">
+                     <picture>
+                        <source srcset="images/galina.webp" type="image/webp">
+                        <img src="images/galina.jpg" alt="Image">
+                     </picture>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section id="expertise" class="page__expertise expertise">
+            <div class="expertise__container _container">
+               <h2 class="expertise__title _title">Мои навыки</h2>
+               <div class="expertise__inner">
+                  <div class="expertise__column">
+                     <div class="expertise__skill skill">
+                        <div class="skill__inner">
+                           <div class="skill__title">HTML5 / CSS3<span>100%</span></div>
+                           <div class="skill__rating-bar rating-bar">
+                              <div class="skill__rate-1">
+                                 <span class="skill__animate animate aqua"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="expertise__skill skill">
+                        <div class="skill__inner">
+                           <div class="skill__title">jQuery <span>100%</span></div>
+                           <div class="skill__rating-bar rating-bar">
+                              <div class="skill__rate-2">
+                                 <span class="skill__animate animate magenta"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="expertise__skill skill">
+                        <div class="skill__inner">
+                           <div class="skill__title">Gulp<span>100%</span></div>
+                           <div class="skill__rating-bar rating-bar">
+                              <div class="skill__rate-4">
+                                 <span class="skill__animate animate navy-blue"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="expertise__skill skill">
+                        <div class="skill__inner">
+                           <div class="skill__title">Sass / Scss <span>100%</span></div>
+                           <div class="skill__rating-bar rating-bar">
+                              <div class="skill__rate-3">
+                                 <span class="skill__animate animate green"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="expertise__skill skill">
+                        <div class="skill__inner">
+                           <div class="skill__title">GitHub<span>70%</span></div>
+                           <div class="skill__rating-bar rating-bar">
+                              <div class="skill__rate-7">
+                                 <span class="skill__animate animate vermilion"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="expertise__column">
+                     <div class="expertise__skill skill">
+                        <div class="skill__inner">
+                           <div class="skill__title">Mobile / Desktop адаптив <span>100%</span></div>
+                           <div class="skill__rating-bar rating-bar">
+                              <div class="skill__rate-5">
+                                 <span class="skill__animate animate purple"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="expertise__skill skill">
+                        <div class="skill__inner">
+                           <div class="skill__title">Flexbox / Grid <span>100%</span></div>
+                           <div class="skill__rating-bar rating-bar">
+                              <div class="skill__rate-5">
+                                 <span class="skill__animate animate blue"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="expertise__skill skill">
+                        <div class="skill__inner">
+                           <div class="skill__title">Photoshop / Figma<span>100%</span></div>
+                           <div class="skill__rating-bar rating-bar">
+                              <div class="skill__rate-9">
+                                 <span class="skill__animate animate vermilion"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="expertise__skill skill">
+                        <div class="skill__inner">
+                           <div class="skill__title">Bootstrap <span>0%</span></div>
+                           <div class="skill__rating-bar rating-bar">
+                              <div class="skill__rate-10">
+                                 <span class="skill__animate animate green"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="expertise__skills skills">
+                  <div class="skills__inner">
+                     <div class="skills__items">
+                        <span class="skills__title">html5 / css3</span>
+                        <ul class="skills__menu">
+                           <li class="skills__item">Валидный, кроссбраузерный код</li>
+                           <li class="skills__item">Структурированный код</li>
+                           <li class="skills__item">Методология БЭМ</li>
+                           <li class="skills__item">Каскадные таблицы стилей</li>
+                        </ul>
+                     </div>
+                     <div class="skills__items">
+                        <span class="skills__title">jQuery</span>
+                        <ul class="skills__menu">
+                           <li class="skills__item">Добавляет интерактивности на Ваш веб-сайт</li>
+                           <li class="skills__item">Готовые плагины</li>
+                           <li class="skills__item">Компактность кода</li>
+                        </ul>
+                     </div>
+                     <div class="skills__items">
+                        <span class="skills__title">Sass / Scss</span>
+                        <ul class="skills__menu">
+                           <li class="skills__item">Ускоренная стилизация сайта</li>
+                           <li class="skills__item">Более гибкий код</li>
+                           <li class="skills__item">Улучшенная логика стилей</li>
+                           <li class="skills__item">Упрощенный синтаксис</li>
+                        </ul>
+                     </div>
+                     <div class="skills__items">
+                        <span class="skills__title">Gulp</span>
+                        <ul class="skills__menu">
+                           <li class="skills__item">Автоматизирует и ускоряет процесс верстки</li>
+                        </ul>
+                     </div>
+                     <div class="skills__items">
+                        <span class="skills__title">Git</span>
+                        <ul class="skills__menu">
+                           <li class="skills__item">Распределённая система управления версиями. Отслеживания и ведения истории изменения файлов, в вашем проекте.</li>
+                        </ul>
+                     </div>
+                     <div class="skills__items">
+                        <span class="skills__title">Mobile / Desktop First</span>
+                        <ul class="skills__menu">
+                           <li class="skills__item">Mobile First - создание мобильной версии веб-сайта</li>
+                           <li class="skills__item">Desktop First - адаптивный и отзывчивый веб-сайт</li>
+                        </ul>
+                     </div>
+                     <div class="skills__items">
+                        <span class="skills__title">Photoshop / Figma</span>
+                        <ul class="skills__menu">
+                           <li class="skills__item">Нарезка изображений из макета</li>
+                           <li class="skills__item">Экспорт SVG изображений</li>
+                           <li class="skills__item">Экспорт стилей для ускоренной верстки</li>
+
+                           <li class="skills__item">Создание спрайтов</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section id="certificates" class="page__certificates certificates">
+            <div class="certificates__container _container">
+               <h2 class="certificates__title _title">Сертификаты</h2>
+               <div class="certificates__inner">
+                  <div class="hover-image">
+                     <a class="hover-image__link" href="images/content/03.jpg">
+                        <img class="hover-image__img" src="images/content/03.jpg" alt="" />
+                        <div class="hover-image__box-icon">
+                           <img class="hover-image__icon" src="images/icons/zoom.png" alt="" />
+                        </div>
+                     </a>
+                  </div>
+                  <div class="hover-image">
+                     <a class="hover-image__link" href="images/content/01.jpg">
+                        <img class="hover-image__img" src="images/content/01.jpg" alt="" />
+                        <div class="hover-image__box-icon">
+                           <img class="hover-image__icon" src="images/icons/zoom.png" alt="" />
+                        </div>
+                     </a>
+                  </div>
+                  <div class="hover-image">
+                     <a class="hover-image__link" href="images/content/02.jpg">
+                        <img class="hover-image__img" src="images/content/02.jpg" alt="" />
+                        <div class="hover-image__box-icon">
+                           <img class="hover-image__icon" src="images/icons/zoom.png" alt="" />
+                        </div>
+                     </a>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+
+         <section id="portfolio" class="page__portfolio portfolio">
+            <div class="portfolio__container _container">
+               <h2 class="portfolio__title _title">Портфолио</h2>
+               <div class="portfolio__article-tiles article-tiles">
+                  <div class="article-tiles__inner">
+                     <div class="article-tiles__column">
+                        <div class="article-tiles__tile">
+                           <div class="article-tiles__images _ibg">
+                              <img src="images/content/lolishop.jpg" alt="Image">
+                           </div>
+                           <div class="article-tiles__content">
+                              <p class="article-tiles__text animate-text">Интернет магазин одежды <span>«lolishop»</span>(5 страниц)</p>
+                              <a class="article-tiles__btn _btn animate-text" href="http://cupcak.ru/" target="_blank">Перейти</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="article-tiles__column">
+                        <div class="article-tiles__tile">
+                           <div class="article-tiles__images _ibg">
+                              <img src="images/content/tar.jpg" alt="Image">
+                           </div>
+                           <div class="article-tiles__content">
+                              <p class="article-tiles__text animate-text">Свадебный салон <br> <span>«Tar»</span>(одностраничный сайт)</p>
+                              <a class="article-tiles__btn _btn animate-text" href="https://galina1977.github.io/wedding_tar/" target="_blank">Перейти</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="article-tiles__column">
+                        <div class="article-tiles__tile">
+                           <div class="article-tiles__images _ibg">
+                              <img src="images/content/midgard.jpg" alt="Image">
+                           </div>
+                           <div class="article-tiles__content">
+                              <p class="article-tiles__text animate-text">Тату-салон <br> <span>«Midgard»</span>(одностраничный сайт)</p>
+                              <a class="article-tiles__btn _btn animate-text" href="https://galina1977.github.io/midgard/" target="_blank">Перейти</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="article-tiles__column">
+                        <div class="article-tiles__tile">
+                           <div class="article-tiles__images _ibg">
+                              <img src="images/content/cleaning.jpg" alt="Image">
+                           </div>
+                           <div class="article-tiles__content">
+                              <p class="article-tiles__text animate-text">Клининговая компании <br> <span>«Чистая фея»</span>(одностраничный сайт)</p>
+                              <a class="article-tiles__btn _btn animate-text" href="https://galina1977.github.io/cleaning/" target="_blank">Перейти</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="article-tiles__column">
+                        <div class="article-tiles__tile">
+                           <div class="article-tiles__images _ibg">
+                              <img src="images/content/gira.jpg" alt="Image">
+                           </div>
+                           <div class="article-tiles__content">
+                              <p class="article-tiles__text animate-text">Компания <br> «Фальцевая кровля и художественная мастерская» <br>(одностраничный сайт) </p>
+                              <a class="article-tiles__btn _btn animate-text" href="https://galina1977.github.io/gira/" target="_blank">Перейти</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="article-tiles__column">
+                        <div class="article-tiles__tile">
+                           <div class="article-tiles__images _ibg">
+                              <img src="images/content/cupcake.jpg" alt="Image">
+                           </div>
+                           <div class="article-tiles__content">
+                              <p class="article-tiles__text animate-text">Домашние <br> <span>«капкейки»</span>(одностраничный сайт)</p>
+                              <a class="article-tiles__btn _btn animate-text" href="https://galina1977.github.io/cupcake/" target="_blank">Перейти</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="article-tiles__column">
+                        <div class="article-tiles__tile">
+                           <div class="article-tiles__images _ibg">
+                              <img src="images/content/wedding.jpg" alt="Image">
+                           </div>
+                           <div class="article-tiles__content">
+                              <p class="article-tiles__text animate-text">Свадебный салон <br> <span>«Амбассадор»</span>(одностраничный сайт)</p>
+                              <a class="article-tiles__btn _btn animate-text" href="https://galina1977.github.io/wedding/" target="_blank">Перейти</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <footer id="footer" class="footer">
+         <div class="footer__container _container">
+            <h2 class="footer__title _title">Контакты</h2>
+
+            <ul class="footer__contacts">
+               <li class="footer__item">
+                  <img class="footer__img" src="images/icons/map.png" alt="Адрес">
+                  <div class="footer__content">
+                     <span class="footer__descr">Адрес</span>
+                     <span class="footer__text">Город Пермь</span>
+                  </div>
+               </li>
+               <li class="footer__item">
+                  <img class="footer__img" src="images/icons/viber.png" alt="Номер телефона">
+                  <div class="footer__content">
+                     <span class="footer__descr">Viber</span>
+                     <span class="footer__text">8-980-031-03-66</span>
+                  </div>
+               </li>
+               <li class="footer__item">
+                  <img class="footer__img" src="images/icons/phone.png" alt="Номер телефона">
+                  <div class="footer__content">
+                     <span class="footer__descr">WhatsApp</span>
+                     <span class="footer__text">8-980-031-03-66</span>
+                  </div>
+               </li>
+
+               <li class="footer__item">
+                  <img class="footer__img" src="images/icons/mail.png" alt="Почта">
+                  <div class="footer__content">
+                     <span class="footer__descr">Email</span>
+                     <span class="footer__text">galyapener@mail.ru</span>
+                  </div>
+               </li>
+            </ul>
+
+         </div>
+      </footer>
+   </div>
+
+   <script src="js/main.min.js"></script>
+</body>
+
+<!-- ©Верстка сделана Пенер Галиной 30 ноября 2021 года -->
+<!-- email: galyapener@mail.ru -->
+
+</html>
