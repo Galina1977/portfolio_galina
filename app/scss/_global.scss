@@ -1,0 +1,38 @@
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+   box-sizing: inherit;
+}
+
+html,
+body {
+   height: 100%;
+}
+
+body.lock {
+   overflow: hidden;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+   background: #000;
+   color: #3a3a3a;
+   min-width: 320px;
+   overflow-x: hidden;
+}
+
+.wrapper {
+   width: 100%;
+   min-height: 100%;
+   overflow: hidden;
+}
+
+._container {
+   max-width: 1200px;
+   padding: 0px 15px;
+   margin: 0 auto;
+}

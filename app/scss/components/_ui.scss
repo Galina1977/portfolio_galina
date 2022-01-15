@@ -1,0 +1,97 @@
+// Уникальные  классы
+
+// Картинка
+._ibg {
+   position: relative;
+   img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+   }
+}
+
+// Заголовок
+._title {
+   text-transform: uppercase;
+   @include adaptiv-value("font-size", 35, 20, 1);
+   line-height: 40/35 * 100%;
+   text-align: center;
+   color: #fff;
+   font-weight: 700;
+   @include adaptiv-value("margin-bottom", 55, 35, 1);
+   @include adaptiv-value("padding-bottom", 10, 5, 1);
+   position: relative;
+   &::after {
+      content: "";
+      display: block;
+      width: 10%;
+      border-bottom: 2px solid #000;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+   }
+}
+
+// Кнопка
+._atuin-btn {
+   display: inline-flex;
+   border: 2px solid #f9f97e;
+   position: relative;
+   overflow: hidden;
+   @include adaptiv-value("font-size", 30, 20, 1);
+   line-height: 90px;
+   padding: 0px 60px;
+   color: #f9f97e;
+   font-weight: 500;
+   text-transform: uppercase;
+   background: #000;
+   transition: box-shadow 0.3s, transform 0.3s;
+   cursor: pointer;
+   &:hover,
+   &:active,
+   &:focus {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+      color: #ffd700;
+      border: 2px solid #ffd700;
+   }
+   &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(-45deg, transparent, rgba(191, 226, 255, 0.3), transparent);
+      transition: left 0.7s;
+   }
+   &:hover:before,
+   &:active:before,
+   &:focus:before {
+      left: 100%;
+   }
+   @media (max-width: 479.98px) {
+      line-height: 60px;
+   }
+}
+
+._btn {
+   display: inline-flex;
+   position: relative;
+   overflow: hidden;
+   @include adaptiv-value("font-size", 20, 15, 1);
+   line-height: 50px;
+   padding: 0px 30px;
+   color: #000;
+   font-weight: 500;
+   text-transform: uppercase;
+   background: #f9f97e;
+   cursor: pointer;
+   &:hover {
+      background-color: #ccc;
+   }
+}
