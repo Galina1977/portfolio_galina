@@ -39,10 +39,4 @@
       line-height: 25/20 * 100%;
       font-weight: 700;
    }
-   &__text {
-      display: block;
-      @include adaptiv-value("font-size", 18, 16, 1);
-      line-height: 22/18 * 100%;
-      font-weight: 900;
-   }
 }
